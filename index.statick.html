@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--script src="js/webOS.js" charset="utf-8"></script-->
+    <script type="text/javascript" src="js/vanilla.js"></script>
+</head>
+<body>
+<div id="main" main class="container background">
+
+<!-- header: menu -->
+    <div header class="header logotype">
+        <button id="live" header-menu class="button" tabindex="1">Эфир</button>
+        <button id="programs" header-menu class="button" tabindex="2">Программы</button>
+    </div>
+
+<!-- video: container -->
+    <div id="videoTarget" class="video" >
+    </div>
+
+<!-- video: navigation -->
+    <div id="navigation" navigation class="navigation">
+        <!-- video: popular @tab-->
+        <div id="popular" class="tab" tabindex="3">Популярное</div>
+        <!-- video: switcher -->
+
+        <div id="switcher" switch class="switcher">
+
+            <!-- scroller: right -->
+            <div id="scrollbar-container" class="scrollbar-container">
+                <div id="scrollbar"></div>
+                <div id="toTop" class="toTop"></div>
+                <div id="toBot" class="toBot"></div>
+            </div>
+
+            <!-- /scroller: right && video: switcher -->
+            <div id="switchCase"class="switchCase">
+
+                <!-- JSON.parse(responseText); -->
+
+            </div>
+        </div>
+    </div>
+
+<!-- stream: static titles-->
+    <div id="streamTitle" class="streamTitle">Сейчас в эфире:</div>
+    <div id="nextStream" class="nextStream">Далее...</div>
+<!-- stream: titles and name -->
+    <div id="streamInfo" stream-now class="streamInfo">
+    <!-- stream: strat time -->
+        <div id="startTimeStraeam" class="startTimeStraeam">17:00</div>
+        <div id="breaker" class="breaker"></div>
+        <div id="startTextStream" class="startTextStream">Название передачи!</div>
+    </div>
+
+<!-- stream: other video-link -->
+    <div id="fullList" full-list class="fullList">
+
+        <!-- stream: container -->
+        <div id="scrollbar-container-bot" class="scrollbar-container-bot">
+            <div id="scrollbar-bot"></div>
+            <div id="toLeft" class="toLeft"></div>
+            <div id="toRight" class="toRight"></div>
+        </div>
+        <div id="switchCaseBot" class="switchCaseBot">
+
+            <!-- JSON.parse(responseText); -->
+
+        </div>
+    </div>
+<!-- application: help infromation -->
+    <div id="helpinfo" class="helpinfo">
+
+        <!-- left: help info -->
+        <div id="redhelp" class="hbtpl redbtn"></div>
+            <div id="p1" class="texthelper">Эфир</div>
+        <div id="greenhelp" class="hbtpl greenbtn"></div>
+            <div id="p2" class="texthelper">Программы</div>
+        <div id="bluehelp" class="hbtpl bluebtn"></div>
+        <div id="bluehelp" class="hbtpl bluebtn"></div>
+            <div id="p3" class="texthelper">На весь экран</div>
+
+        <!-- right: help navigation -->
+        <div id="enter" class="imagebtm"></div>
+            <div id="enterText" class="texthelper">Выбор</div>
+        <div id="back" class="imagebtm"></div>
+            <div id="backText" class="texthelper">Назад</div>
+        <div id="navi" class="imagebtm"></div>
+            <div id="naviText" class="texthelper">Навигация</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "vendor": "Temocenter GAU",
+    "largeIcon": "largeIcon.png",
+    "icon": "icon.png",
+    "bgImage": "splashscreen.png",
+    "splashBackground": "splashscreen.png",
+    "main": "index.html",
+    "id": "ru.temocenter.mosobrtv",
+    "title": "Московский образовательный телеканал",
+    "type": "web",
+    "version": "1.0.0"
+}
